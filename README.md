@@ -7,7 +7,7 @@ For example: (Docker works too)
 
 podman build -t java-spring-skate-shop-inventory:latest .
 
-podman run -d -p <host-port>:8080 --name skate-shop-inv java-spring-skate-shop-invntory:latest
+podman run -d --rm -p <host-port>:8080 --name skate-shop-inv java-spring-skate-shop-inventory:latest
 
 ## To kill:
 
